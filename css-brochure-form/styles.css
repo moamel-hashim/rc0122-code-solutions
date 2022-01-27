@@ -3,7 +3,9 @@ h1 {
   font-family: "Brandon Grotesque", sans-serif;
   text-transform: uppercase;
   color: #ec5d57;
-  font-weight: 400;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
 }
 
 form {
@@ -47,6 +49,7 @@ button {
   letter-spacing: 0.2px;
   background-color: #ec5d57;
   color: white;
+  cursor: pointer;
 }
 
 .submit {
