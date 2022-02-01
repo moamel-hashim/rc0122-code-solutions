@@ -88,22 +88,27 @@ button:hover {
 }
 
 .img-container {
-  width: 70%;
+  width: 100%;
 }
 
 .margin-top {
-  margin-top: 2rem;
+  margin-top: 4rem;
 }
 
 .text-container {
   position: absolute;
   top: 8rem;
-  left: 4rem;
+  left: 8rem;
   width: 40%;
 }
 
 .position-relative {
   position: relative;
+}
+
+h1 {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: normal;
 }
 
 .text-container > h1 {
@@ -124,8 +129,13 @@ p {
 .overlay {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   position: absolute;
-  width: 100%;
-  height: 76.6vh;
+  width: 90%;
+  height: 69.6vh;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .location-header {
@@ -136,10 +146,6 @@ p {
 
 .line-height {
   line-height: 1.5rem;
-}
-
-section {
-  background-color: rgb(250 250 250);
 }
 
 h2 {
@@ -157,7 +163,7 @@ h2 {
   color: rgb(115 115 115);
 }
 
-.olive {
+.footer-container {
   background-color: rgb(82 83 81);
   height: 40vh;
 }
@@ -221,4 +227,44 @@ h2 {
 .width {
   width: 63%;
   margin: 0 auto;
+}
+
+.hero-img-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.product-text-container {
+  width: 50%;
+  position: absolute;
+  top: 8rem;
+  left: 8rem;
+  color: white;
+}
+
+.product-text-container > p {
+  color: white;
+}
+
+.care-command {
+  background-color: rgb(250 250 250);
+}
+
+.second-text-container {
+  padding: 4rem;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.italic {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+}
+
+.a-text-decoration {
+  text-decoration: none;
+}
+
+.learn-more-container {
+  width: 80%;
 }
