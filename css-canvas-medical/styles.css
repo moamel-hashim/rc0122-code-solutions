@@ -108,7 +108,8 @@ button:hover {
 
 h1 {
   font-family: "Tiempos Headline", sans-serif;
-  font-style: normal;
+  font-weight: 500;
+  font-size: 2rem;
 }
 
 .text-container > h1 {
@@ -235,7 +236,7 @@ h2 {
 }
 
 .product-text-container {
-  width: 50%;
+  width: 40%;
   position: absolute;
   top: 8rem;
   left: 8rem;
@@ -267,4 +268,36 @@ h2 {
 
 .learn-more-container {
   width: 80%;
+}
+
+.ordered-list-container {
+  list-style-position: inside;
+  margin: 0 auto;
+  width: 45%;
+}
+
+.ordered-list-container > h2 {
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+  color: rgb(95 82 79);
+}
+
+ol {
+  padding-left: 1rem;
+}
+
+li::marker {
+  font-size: 1.5rem;
+  font-family: "Tiempos Headline", sans-serif;
+  color: rgb(95 82 79);
+}
+
+li > span {
+  font-size: 1.1rem;
+  color: rgb(115 115 115);
+  padding-left: 0.2rem;
+}
+
+li {
+  margin: 4rem 0;
 }
