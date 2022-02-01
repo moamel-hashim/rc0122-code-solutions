@@ -1,0 +1,44 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: Barlow, sans-serif;
+  text-transform: capitalize;
+}
+
+.row {
+  display: flex;
+}
+
+.column-forth {
+  flex-basis: calc(100% / 4);
+}
+
+img {
+  width: 100%;
+}
+
+.img-container {
+  width: 100%;
+}
+
+.icon-container {
+  width: 30%;
+  margin: 0 auto;
+}
+
+main {
+  font-family: Barlow, sans-serif;
+}
+
+.text-container {
+  text-align: center;
+}
+
+.text-container > h3 {
+  text-transform: capitalize;
+  font-weight: 700;
+}
