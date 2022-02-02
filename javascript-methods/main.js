@@ -1,5 +1,3 @@
-// var randomNumbers = [1, 2, 3];
-// var maximumValue = Math.max(...randomNumbers);
 
 var numberOne = 1;
 var numberTwo = 2;
