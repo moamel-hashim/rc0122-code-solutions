@@ -10,7 +10,7 @@
 function getNumbersToTen() {
   var number = [];
   var currentNumber = 1;
-  while (currentNumber < 10) {
+  while (currentNumber <= 10) {
     number.push(currentNumber);
     currentNumber++;
   }
@@ -20,7 +20,7 @@ function getNumbersToTen() {
 function getEvenNumbersToTwenty() {
   var evenNumbers = [];
   var currentNumber = 2;
-  while (currentNumber < 20) {
+  while (currentNumber <= 20) {
     evenNumbers.push(currentNumber);
     currentNumber += 2;
   }
