@@ -131,7 +131,7 @@ p {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   position: absolute;
   width: 90%;
-  height: 69.6vh;
+  height: 69vh;
   margin: 0 auto;
   top: 0;
   bottom: 0;
@@ -252,8 +252,8 @@ h2 {
 }
 
 .second-text-container {
-  padding: 4rem;
-  width: 65%;
+  padding: 6rem;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -301,4 +301,20 @@ li > span {
 
 li {
   margin: 4rem 0;
+}
+
+.padding-6rem {
+  padding: 6rem;
+}
+
+.implementation-overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 75%));
+  position: absolute;
+  width: 90%;
+  height: 64.9vh;
+  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
