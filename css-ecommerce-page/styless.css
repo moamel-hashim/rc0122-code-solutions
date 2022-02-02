@@ -1,0 +1,47 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: "DM sans", sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column-one-fifth {
+  width: 19%;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.align-items {
+  align-items: baseline;
+}
+
+p {
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+.justify-content {
+  justify-content: space-between;
+}
+
+.white-smoke {
+  color: rgb(219 219 219);
+}
+
+.span-color {
+  background-color: rgb(253 240 229);
+}
+
+.vertical-line {
+  border-left: 2px solid rgb(219 219 219);
+  padding-left: 0.5rem;
+}
