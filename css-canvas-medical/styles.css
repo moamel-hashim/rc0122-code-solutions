@@ -131,7 +131,7 @@ p {
   background: linear-gradient(transparent, rgb(0 0 0 / 75%));
   position: absolute;
   width: 90%;
-  height: 69.6vh;
+  height: 69.1vh;
   margin: 0 auto;
   top: 0;
   bottom: 0;
@@ -252,8 +252,8 @@ h2 {
 }
 
 .second-text-container {
-  padding: 4rem;
-  width: 65%;
+  padding: 6rem;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -301,4 +301,73 @@ li > span {
 
 li {
   margin: 4rem 0;
+}
+
+.padding-6rem {
+  padding: 6rem;
+}
+
+.about-us-text {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+.text-align-center > h2 {
+  color: rgb(95 82 79);
+  font-size: xx-large;
+}
+
+.what-we-believe > a {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.circle-imgs-container {
+  width: 20%;
+  padding: 1rem;
+}
+
+.border-radius {
+  border-radius: 50%;
+}
+
+.justify-content-space-evenly {
+  justify-content: space-evenly;
+}
+
+.wrap {
+  flex-flow: wrap;
+}
+
+.brown {
+  color: rgb(95 82 79);
+}
+
+.column-eighty-percent {
+  width: 80%;
+}
+
+.margin-top-bottom {
+  margin: 4rem 0 10rem;
+}
+
+.line-height-two-half {
+  line-height: 2.5rem;
+}
+
+.padding-bottom {
+  padding-bottom: 5rem;
+}
+
+.margin-top-one-rem {
+  margin-top: 1rem;
+}
+
+.link {
+  text-decoration: none;
+  font-weight: 700;
 }
