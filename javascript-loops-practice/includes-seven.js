@@ -15,14 +15,10 @@ function includesSeven(array) {
 */
 
 function includesSeven(array) {
-  let boolean = false;
   for (let i = 0; i < array.length; i++) {
     if (array[i] === 7) {
-      boolean = true;
-      break;
-    } else {
-      boolean = false;
+      return true;
     }
   }
-  return boolean;
+  return false;
 }

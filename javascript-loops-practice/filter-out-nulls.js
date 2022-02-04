@@ -19,7 +19,7 @@ function filterOutNulls(values) {
 function filterOutNulls(values) {
   const array = [];
   for (let i = 0; i < values.length; i++) {
-    if (values[i] !== null) {
+    if (values[i]) {
       array.push(values[i]);
     }
   }
