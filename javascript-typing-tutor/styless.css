@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.row {
+  display: flex;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.correct {
+  color: green;
+  text-decoration: none;
+}
+
+.current {
+  text-decoration: underline;
+  color: black;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
