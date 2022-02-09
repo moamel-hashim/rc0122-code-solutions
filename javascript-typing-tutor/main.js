@@ -7,11 +7,17 @@ let characterTyped = 0;
 
 $html.addEventListener('keydown', handleKeyPress);
 function handleKeyPress(event) {
-  if (event.key === $span[index].textContent) {
-    $span[index].className = 'correct';
-    index++;
+  if (index === $span.length - 1) {
     correct++;
     characterTyped++;
+    $span[index].className = 'correct';
+    return;
+  }
+  if (event.key === $span[index].textContent) {
+    $span[index].className = 'correct';
+    correct++;
+    characterTyped++;
+    index++;
     $span[index].className = 'current';
   } else if (event.key !== $span[index].textContent) {
     $span[index].className = 'incorrect';
