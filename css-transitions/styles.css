@@ -22,7 +22,7 @@ section {
   font-size: 1rem;
   color: white;
   background-color: blue;
-  transition: calc(0.5s);
+  transition: 0.5s;
 }
 
 .card-wrapper {
