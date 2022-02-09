@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.center {
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.row {
+  display: flex;
+}
+
+h1 {
+  font-family: sans-serif;
+}
+
+.current {
+  text-decoration: underline;
+  color: black;
+}
+
+.correct {
+  color: green;
+  text-decoration: none;
+}
+
+.incorrect {
+  color: red;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.text-align-center {
+  text-align: center;
+}
+
+p {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.reset {
+  padding: 0.5rem 2rem;
+}
