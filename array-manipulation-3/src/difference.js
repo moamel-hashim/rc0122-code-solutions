@@ -8,9 +8,16 @@ function difference (first, second) {
   for(let i = 0; i < first.length; i++) {
     we create a conditional that check if the values in first array at i is not equal to the values in the second array at i
     then we push it into the newArray
-    if(first[i] !== second[i]) {
+    if(second.indexOf(first[i]) === -1) {
       newArray.push(first[i]);
-      newArray.push(second[i]);
+    }
+  }
+  then we create another for loop to loop over the second array
+  for(let j = 0; j < second.length; j++) {
+    we create a conditional that check if the indexOf first is in the second at j if its not then indexOf will give us a value of - 1
+    so then we check if its equal to -1 and if it is then we push it into the newArray
+    if(first.indexOf(second[j]) === -1) {
+      newArray.push(second[j]);
     }
   }
   return newArray;
@@ -19,13 +26,15 @@ function difference (first, second) {
 
 function difference(first, second) {
   const newArray = [];
-  const anotherArray = [];
   for (let i = 0; i < first.length; i++) {
-    if (first[i] !== second[i]) {
+    if (second.indexOf(first[i]) === -1) {
       newArray.push(first[i]);
-      anotherArray.push(second[i]);
     }
   }
-  const fullArray = newArray.concat(anotherArray);
-  return fullArray;
+  for (let j = 0; j < second.length; j++) {
+    if (first.indexOf(second[j]) === -1) {
+      newArray.push(second[j]);
+    }
+  }
+  return newArray;
 }
