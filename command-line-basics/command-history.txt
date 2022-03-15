@@ -1,0 +1,302 @@
+    1  git config --global user.name "moamel hashim"
+    2  git config --global user.email "muamal1997@gmail.com"
+    3  git config --global --list
+    4  git confi --global user.name "moamel-hashim"
+    5  git config --global user.name "moamel-hashim"
+    6  git config --global --list
+    7  dev-enviorement
+    8  git status
+    9  git switch master
+   10  git add .
+   11  git commit -m 'completed some problems'
+   12  git switch master
+   13  git branch javascript-prototypes
+   14  git switch javascript-prototypes 
+   15  git status
+   16  git switch master
+   17  git switch array-manipulation-3
+   18  git push origin array-manipulation-3
+   19  git switch mater
+   20  git switch master
+   21  git switch javascript-prototypes 
+   22  git push origin array-manipulation-3
+   23  git switch array-manipulation-3
+   24  git branch javascript-prototype
+   25  git switch javascript-protot
+   26  git switch javascript-prototype
+   27  git branch -D javascript-prototype
+   28  git switch javascript-prototypea
+   29  git switch javascript-prototypes
+   30  git status
+   31  git switch master
+   32  git branch -D javascript-prototypes
+   33  git branch -D javascript-prototype 
+   34  git switch array-manipulation-3
+   35  git branch javascript-prototypes
+   36  git switch javascript-prototypes 
+   37  git status
+   38  git add .
+   39  git commit -m 'completed javascript-prototypes'
+   40  git push origin javascript-prototypes 
+   41  git switch array-manipulation-3
+   42  git status
+   43  git add .
+   44  git commit -m 'completed array-manipulation-3'
+   45  git push origin array-manipulation-3
+   46  git switch master
+   47  git branch http-messages
+   48  git switch http-messages
+   49  git status
+   50  http http://example.com
+   51  http --verbose http://www.example.com
+   52  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   53  http --body GET https://jsonplaceholder.typicode.com/users
+   54  http --body GET https://jsonplaceholder.typicode.com/users > /users.json
+   55  http --body GET https://jsonplaceholder.typicode.com/users > users.json
+   56  http --body GET https://jsonplaceholder.typicode.com/users > http-messages/users.json
+   57  http --body GET https://example.com > http-messages/index.html
+   58  git status
+   59  git add .
+   60  git commit -m 'completed http-messages'
+   61  git push origin http-messages 
+   62  git switch master
+   63  git pull origin master
+   64  git branch javascript-constructors
+   65  git switch javascript-constructors 
+   66  git status
+   67  git add .
+   68  git commit -m 'completed javascript-constructors'
+   69  git push origin javascript-constructors 
+   70  git switch master
+   71  git pull origin master
+   72  git branch javascript-timers
+   73  git switch javascript-timers 
+   74  git status
+   75  git commit -m 'completed javascript-timers'
+   76  git add .
+   77  git commit -m 'completed javascript-timers'
+   78  git push origin javascript-timers
+   79  git status
+   80  git switch master
+   81  git branch javascript-ajax
+   82  git switch javascript-ajax
+   83  git status
+   84  git add .
+   85  git commit -m 'completed javascript-ajax'
+   86  git push origin javascript-ajax 
+   87  git switch master
+   88  git pull origin master
+   89  cd ~/repos/ajax-project-v2/
+   90  git status
+   91  git add .
+   92  git commit -m 'completed feature'
+   93  git commit -m 'completed feature' --no-verify
+   94  git commit -m 'completed feature' 
+   95  git add .
+   96  git commit -m 'completed feature' 
+   97  git push origin user-can-view-agents-and-description 
+   98  git switch master
+   99  git pull origin master
+  100  git branch user-can-view-agent-abilities
+  101  git switch user-can-view-agent-abilities 
+  102  git status
+  103  cd ~/repos/ajax-project-v2/
+  104  git status
+  105  git add .
+  106  git status
+  107  git add
+  108  git add .
+  109  git add images
+  110  git add images/astra/
+  111  git status
+  112  git add images/breach/
+  113  git add images/brimstone/
+  114  git add images/chamber/
+  115  git add images/cypher/
+  116  git add images/jett/
+  117  git add images/kayo/
+  118  git add images/killjoy/
+  119  git add image/neon/
+  120  git add images/neon/
+  121  git add images/phenix/
+  122  git add images/raze/
+  123  git add images/reyna/
+  124  git add images/sage/
+  125  git add images/skye/
+  126  git add images/sova/
+  127  git add images/viper/
+  128  git add images/yoru/
+  129  git status
+  130  git add images/omen/
+  131  git status
+  132  git add .
+  133  git status
+  134  git add .
+  135  git status
+  136  git commit -m 'completed some task'
+  137  cd ~/repos/ajax-project-v2/
+  138  git status
+  139  git add .
+  140  git add images/viper/vipers\ pit.gif 
+  141  git status
+  142  git add .
+  143  git status
+  144  git commit -m 'completed the feature'
+  145  git push origin user-can-view-agent-abilities 
+  146  git commit -m 'completed the feature'
+  147  git push origin user-can-view-agent-abilities 
+  148  git config http.postBuffer 524288000
+  149  git status
+  150  git commit -m 'completed the feature'
+  151  git push origin user-can-view-agent-abilities 
+  152  cd ~/repos
+  153  git config http.postBuffer 524288000
+  154  ~cd/repos/ajax-project-v2
+  155  cd ~/repos/ajax-project-v2
+  156  git config http.postBuffer 524288000
+  157  git config ssh.postBuffer 524288000
+  158  git config --global http.postBuffer 100000000
+  159  git status
+  160  git push origin user-can-view-agent-abilities 
+  161  git log
+  162  git status
+  163  git branch view-agent-abilities-backup
+  164  git reset --soft HEAD^1
+  165  git status
+  166  git reset --soft HEAD^1
+  167  git status
+  168  git restore --staged images
+  169  git status
+  170  git commit -m 'completed feature'
+  171  git push origin user-can-view-agent-abilities 
+  172  git status
+  173  git add images/astra/
+  174  git add images/breach/
+  175  git status
+  176  git commit -m 'added some image files'
+  177  git push origin user-can-view-agent-abilities 
+  178  git reset --soft HEAD^1
+  179  git status
+  180  git restore --staged images
+  181  git status
+  182  git add images/astra/
+  183  git status
+  184  git commit -m 'added astra'
+  185  git push origin user-can-view-agent-abilities 
+  186  git reset --soft HEAD^1
+  187  git status
+  188  git restore --staged images
+  189  git status
+  190  git push origin user-can-view-agent-abilities 
+  191  cd ~/repos/rc0122-code-solutions/
+  192  cd ~/repos/ajax-project-v2/
+  193  git switch master
+  194  git pull origin master
+  195  cd ~/repos/ajax-project-v2/
+  196  git pull origin master
+  197  git branch user-can-favorite-character
+  198  git switch user-can-favorite-character 
+  199  git status
+  200  git pull origin user-can-favorite-character
+  201  cd ~/repos/rc0122-code-solutions/
+  202  git switch es6-arrow-function
+  203  git status
+  204  git add es6-arrow-functions/
+  205  git commit -m 'fixed es6-arrow-functions'
+  206  git reset --soft HEAD^1
+  207  git status
+  208  git reset --soft HEAD^1
+  209  git status
+  210  git reset --soft HEAD^1
+  211  git status
+  212  git switch master
+  213  git switch es5-arrow-functions
+  214  git switch es6-arrow-functions
+  215  git switch es6-arrow-function
+  216  git status
+  217  git reset es6-arrow-function
+  218  git status
+  219  git switch es6-arrow-functions
+  220  git add es6-arrow-functions
+  221  git switch es6-arrow-functions
+  222  git commit -m 'completed arrow-functions'
+  223  git switch es6-arrow-functions
+  224  git merge --no-ff es6-arrow-function
+  225  git status
+  226  git add es6-arrow-functions
+  227  git status
+  228  git commit -m
+  229  git commit -m ''
+  230  git add .
+  231  git status
+  232  git commit
+  233  git push origin es6-arrow-function
+  234  git push origin es6-arrow-functions
+  235  git switch master
+  236  git branch command-line-basics
+  237  git switch command-line-basics
+  238  git status
+  239  cd command-line-basics
+  240  pwd
+  241  man man
+  242  man cat
+  243  cat -A laziness.txt
+  244  cat -A imptience.txt
+  245  cat -A hubris.txt
+  246  cat -A impatience.txt
+  247  man cat
+  248  cat laziness.txt impatience.txt hubris.txt
+  249  cat laziness.txt impatience.txt hubris.txt > three-virtues.txt
+  250  cat -A three-virtues.txt 
+  251  man ls
+  252  ls
+  253  ls -a
+  254  ls -f
+  255  ls lfz-staff/
+  256  ls -a lfz-staff/
+  257  ls -f lfz-staff/
+  258  ls -aF lfz-staff > lfz-staff/contents.txt
+  259  cat -A lfz-staff/contents.txt
+  260  man pwd
+  261  pwd
+  262  pwd > i-was-here.txt
+  263  ls
+  264  cat -A i-was-here,txt
+  265  cat -A i-was-here.txt
+  266  man echo
+  267  echo 'Hello, World!'
+  268  echo 'Hello, World!' > hello.txt
+  269  ls
+  270  cat hello.txt
+  271  cat i-was-here.txt 
+  272  man touch
+  273  touch tag-your-it.txt
+  274  touch snoot/boop.txt
+  275  ls snoot/
+  276  ls
+  277  man mkdir
+  278  mkdir -p
+  279  mkdir -p parent
+  280  ls
+  281  ls parent/
+  282  ls 
+  283  mkdir -p parent/child/grandchild
+  284  touch parent/child/grandchild/.gitkeep
+  285  ls -a
+  286  ls -a parent/child/grandchild
+  287  man mv
+  288  mv pokiemans pokemon
+  289  ls
+  290  man rm
+  291  rm lol.txt 
+  292  ls
+  293  rm -r kill-me/
+  294  ls
+  295  man cp
+  296  cp and-then.txt 
+  297  cp and-then.txt no-and-then.txt
+  298  ls
+  299  cat and-then.txt no-and-then.txt 
+  300  man history
+  301  history
+  302  history > command-history.txt
