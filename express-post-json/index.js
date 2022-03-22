@@ -17,8 +17,8 @@ app.use(jsonMiddleware);
 
 app.post('/api/grades', (req, res) => {
   req.body.id = nextId;
-  nextId++;
   grades[nextId] = req.body;
+  nextId++;
   res.status(201).json(req.body);
 });
 
