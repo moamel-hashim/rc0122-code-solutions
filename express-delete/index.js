@@ -31,17 +31,17 @@ app.get('/api/grades', (req, res) => {
   res.json(array);
 });
 
-app.listen(3000, () => {
-  // eslint-disable-next-line no-console
-  console.log('I \'m listening');
-});
-
 app.delete('/api/grades/:id', (req, res) => {
-  const { id } = req.params.id;
+  const { id } = req.params;
   if (!grades[id]) {
     res.sendStatus(404);
-  } else if (grades[id]) {
+  } else {
     delete grades[id];
     res.sendStatus(204);
   }
+});
+
+app.listen(3000, () => {
+  // eslint-disable-next-line no-console
+  console.log('I \'m listening on port 3000');
 });
