@@ -1,6 +1,5 @@
 const express = require('express');
 const app = express();
-const array = [];
 const grades =
 {
   12: {
@@ -24,6 +23,7 @@ const grades =
 };
 
 app.get('/api/grades', (req, res) => {
+  const array = [];
   for (const keys in grades) {
     array.push(grades[keys]);
   }
