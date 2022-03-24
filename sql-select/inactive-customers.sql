@@ -1,1 +1,1 @@
-select * from "customers" where "isActive" = 'false'
+select * from "customers" where "isActive" = false

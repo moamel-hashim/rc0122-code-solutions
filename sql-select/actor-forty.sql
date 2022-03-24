@@ -1,1 +1,1 @@
-select "firstName", "lastName" from "actors" where "actorId" = '40'
+select "firstName", "lastName" from "actors" where "actorId" = 40

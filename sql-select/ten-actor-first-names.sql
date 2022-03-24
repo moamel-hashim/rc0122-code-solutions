@@ -1,2 +1,1 @@
-select "firstName", "lastName" from "actors" where "actorId" <= '10'
-
+select "firstName", "lastName" from "actors" limit 10;
