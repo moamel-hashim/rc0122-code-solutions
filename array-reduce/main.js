@@ -23,7 +23,7 @@ console.log(sumAll);
 const product = numbers.reduce((previousNum, currentNum) => previousNum * currentNum);
 console.log(product);
 
-const initial = 0;
+const start = 0;
 
 const balance = account.reduce((total, transaction) => {
   if (transaction.type === 'deposit') {
@@ -31,7 +31,7 @@ const balance = account.reduce((total, transaction) => {
   } else {
     return total - transaction.amount;
   }
-}, initial);
+}, start);
 console.log(balance);
 
 const object = {};
