@@ -4,5 +4,5 @@ chances.then(value => {
   console.log(value);
 });
 chances.catch(error => {
-  console.error(error);
+  console.error(error.message);
 });
