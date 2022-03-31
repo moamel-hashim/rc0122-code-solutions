@@ -1,6 +1,6 @@
 import { createElement, noop } from '../lib';
-import TodoList from './todo-list';
 import TodoForm from './todo-form';
+import TodoList from './todo-list';
 
 class TodoApp {
   constructor(container, nextId, todos, onUpdate = noop) {
@@ -52,5 +52,4 @@ class TodoApp {
   }
 }
 
-// module.exports = TodoApp;
 export default TodoApp;
