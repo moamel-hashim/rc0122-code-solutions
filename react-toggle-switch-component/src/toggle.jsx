@@ -4,7 +4,8 @@ class Toggle extends React.Component {
     super(props);
     this.state = {
       toggle: false,
-      color: ''
+      color: '',
+      onOrOff: ''
     };
     this.handleToggle = this.handleToggle.bind(this);
   }
@@ -14,9 +15,8 @@ class Toggle extends React.Component {
   }
 
   render() {
-    let onOrOff = '';
     const $body = document.querySelector('body');
-    let { toggle, color } = this.state;
+    let { toggle, color, onOrOff } = this.state;
     if (toggle === false) {
       onOrOff = 'OFF';
       $body.className = '';
