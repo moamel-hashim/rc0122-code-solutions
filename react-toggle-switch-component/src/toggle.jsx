@@ -3,9 +3,7 @@ class Toggle extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      toggle: false,
-      color: '',
-      onOrOff: ''
+      toggle: false
     };
     this.handleToggle = this.handleToggle.bind(this);
   }
@@ -15,25 +13,15 @@ class Toggle extends React.Component {
   }
 
   render() {
-    const $body = document.querySelector('body');
-    let { toggle, color, onOrOff } = this.state;
-    if (toggle === false) {
-      onOrOff = 'OFF';
-      $body.className = '';
-    } else {
-      onOrOff = 'ON';
-      color = 'white';
-      $body.className = 'dark';
-      toggle = false;
-    }
+    const { toggle } = this.state;
     return (
-      <div className='row'>
+      <div className={`row ${toggle === false ? '' : 'dark'}`}>
       <label htmlFor="toggle" className='switch'>
         <input type="checkbox" name="toggle" id="toggle" onClick={this.handleToggle}/>
         <span className='slider round'></span>
       </label>
       <div>
-        <p className={color}>{onOrOff}</p>
+        <p className={toggle === false ? 'dark-text' : 'white'}>{toggle === false ? 'OFF' : 'ON'}</p>
       </div>
       </div>
     );
