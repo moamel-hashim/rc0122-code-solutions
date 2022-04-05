@@ -1,0 +1,23 @@
+.hidden {
+  display: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h3 {
+  padding: 1rem;
+  background-color: #ddd;
+  border: 1px solid;
+  margin: 0;
+  width: 30%;
+}
+
+p {
+  border: 1px solid;
+  margin: 0;
+  padding: 1rem;
+  width: 30%;
+}
