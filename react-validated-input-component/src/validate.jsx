@@ -48,7 +48,7 @@ class ValidatedInput extends React.Component {
       <form action='' onSubmit={this.handleSubmit}>
         <label htmlFor="password">Password</label>
         <div>
-          <input type="password" name="password" id="password" onChange={this.handleInput}/> <span><i className={className}></i></span>
+          <input type="password" name="password" id="password" onChange={this.handleInput} value={this.state.password}/> <span><i className={className}></i></span>
         </div>
         <div>
           <p className={textClass}>{text}</p>
