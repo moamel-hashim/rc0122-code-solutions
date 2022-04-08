@@ -7,7 +7,7 @@ function authorizationMiddleware(req, res, next) {
   if (!token) {
     throw new ClientError(401, 'authentication required');
   } else {
-    const jwtVerify = jwt.verify(token);
+    const jwtVerify = jwt.verify(token, process.env.TOKEN_SECRET);
     const payload = jwtVerify.payload;
     req.user = payload;
     next();
