@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.overlay {
+  background-color: black;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  opacity: 0.6;
+}
+
+.menu {
+  position: absolute;
+  z-index: 999;
+  background-color: white;
+  width: 15%;
+  height: 100vh;
+}
+
+.text-container {
+  margin-left: 1rem;
+  line-height: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.icon-position {
+  margin: 1rem 0 0 1rem;
+}
+
+.font-size {
+  font-size: 1.8rem;
+}
+
+.margin-none {
+  margin: 0;
+}
+
+.menu-text {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
