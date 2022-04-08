@@ -56,10 +56,10 @@ app.post('/api/auth/sign-in', (req, res, next) => {
   const params = [username];
   db.query(sql, params)
     .then(data => {
-      if (!data) {
+      const [user] = data.rows;
+      if (!user) {
         throw new ClientError(401, 'invalid login');
       } else {
-        const [user] = data.rows;
         argon2.verify(user.hashedPassword, password)
           .then(validate => {
             if (!validate) {
