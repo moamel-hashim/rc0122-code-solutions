@@ -1,0 +1,25 @@
+.height {
+  height: 100vh;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.btn {
+  padding: 8rem;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 1.5rem;
+  margin: 2rem 0;
+}
+
+.icon-btn {
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+}
