@@ -4,15 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>JavaScript Carousel</title>
+  <link rel="stylesheet" href="//use.fontawesome.com/releases/v6.4.0/css/all.css">
   <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <div class="row">
-    <span><i class="far fa-arrow-left"></i></span>
-  </div>
+  <section>
+    <div class="conatiner">
+      <div class="carousel-container">
+        <i class="fa-solid fa-arrow-left"></i>
+        <div class="image-container">
+          <img src="images/001.png" alt="image of bulbasaur">
+          <img src="images/004.png" alt="images of charmander" class="hidden">
+          <img src="images/007.png" alt="images of squirtle" class="hidden">
+          <img src="images/025.png" alt="images of pickachu" class="hidden">
+          <img src="images/039.png" alt="images of jigglypuff" class="hidden">
+          <div class="circles-container">
+            <i class="fa-solid fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+            <i class="fa-regular fa-circle"></i>
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+  </section>
   <script src="main.js"></script>
 </body>
 </html>

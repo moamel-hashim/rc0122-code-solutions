@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 900px;
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+  width: 100%;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image-container {
+  width: 25%;
+}
+
+.fa-arrow-left {
+  width: 10%;
+  text-align: start;
+  font-size: 2rem;
+}
+
+.fa-arrow-right {
+  width: 10%;
+  text-align: end;
+  font-size: 2rem;
+}
+
+.circles-container {
+  text-align: center;
+  letter-spacing: 0.5rem;
+}
